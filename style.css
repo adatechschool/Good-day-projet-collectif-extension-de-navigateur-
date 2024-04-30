@@ -1,0 +1,27 @@
+/* Style du bouton d'extension */
+.extension-button {
+  background-color: #4CAF50; /* Couleur de fond */
+  border: none; /* Supprimer les bordures */
+  color: white; /* Couleur du texte */
+  padding: 15px 32px; /* Espacement autour du texte */
+  text-align: center; /* Centrer le texte */
+  text-decoration: none; /* Supprimer la décoration de texte */
+  display: inline-block; /* Afficher comme bloc en ligne */
+  font-size: 16px; /* Taille de police */
+  margin: 4px 2px; /* Marge autour du bouton */
+  cursor: pointer; /* Curseur de souris pointer */
+  border-radius: 8px; /* Rayon de bordure */
+}
+
+/* Style de survol du bouton */
+.extension-button:hover {
+  background-color: #45a049; /* Couleur de fond au survol */
+}
+
+
+html {
+  height: 400px;  /*Set the height and width here. It must be larger
+                  # than 25*25 but smaller than 800*600.*/
+  width: 400px;      
+}
+
