@@ -8,21 +8,22 @@
 }
 body {
     width: 350px;
-    height: 250px;
+    height: 230px;
     text-align: center;
-    background-color: #0D1F22;       
+    background-color:transparent;       
     display :flex ;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border-radius: 6px;
-
+    overflow-y: hidden;
   }
   
   div {
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: 280px;
+    
   }
   input , button {
     margin-bottom: 10px;
@@ -45,3 +46,4 @@ body {
     font-style: italic;
     margin-bottom: 10px;
   }
+  

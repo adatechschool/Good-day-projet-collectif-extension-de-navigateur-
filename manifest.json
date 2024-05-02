@@ -4,14 +4,6 @@
     "version": "1.0",
     "description": "Affiche la météo actuelle et une image floutée de nature sur la nouvelle page de l'onglet Chrome, bouton pour d'autres extensions",
     "permissions": ["storage", "geolocation","activeTab"],
-    "action": {
-      "default_popup": "index.html",
-      "default_icon": {
-        "16": "img/icon16.png",
-        "48": "img/icon48.png",
-        "128": "img/icon128.png"
-      }
-    },
     "chrome_url_overrides": {
       "newtab": "index.html"
     },
