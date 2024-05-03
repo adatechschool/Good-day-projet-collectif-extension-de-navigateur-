@@ -5,10 +5,10 @@
     }
     body {
         display: flex;
-        justify-content: center;
+        justify-content:left;
         align-items: center;
         height: 100vh;
-        background: #000;
+        background: transparent;
     }
 
     ul {
@@ -61,3 +61,10 @@
     ul li:hover a::before {
         height: 100%;
     }
+
+
+
+
+    <a target="_blank" href="https://www.instagram.com"><i class="fa-brands fa-instagram instagram"></i></a>
+    <a  target="_blank" href="https://www.whatsapp.com/"><i class="fa-brands fa-whatsapp whatsapp"></i></a>
+    <a target="_blank" href="https://twitter.com/"><i class="fa-brands fa-twitter twitter"></i></a>

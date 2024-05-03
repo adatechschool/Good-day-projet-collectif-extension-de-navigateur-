@@ -15,15 +15,20 @@ body {
 .container {
   margin-top: -90px;
    display: grid;
-  grid-template-columns:1fr 1fr 0.8fr ;
+  grid-template-columns:1fr 1fr 1fr ;
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-areas: 
   "recherche meteo . "
   " . . .  " 
-  ". . .";
+  "socialmedia . .";
 }
 .recherche{
   grid-area: recherche;
+}
+.socialmedia{
+  grid-area: socialmedia;
+  margin-top: -120px;
+  
 }
   .meteo{
     grid-area: meteo;
@@ -31,3 +36,5 @@ body {
   .clock{
     grid-area: clock;
   }
+
+  

@@ -21,4 +21,4 @@ function setBackgroundImage(url) {
 }
 
 
-// getRan:domImage();
+getRandomImage();
