@@ -3,11 +3,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 20vh;
+    height: 40vh;
     margin: 0;
+    
+    
 }
 
 #clock {
     font-size: 36px;
-    
+    justify-content: center;
+    align-items: center;
 }
