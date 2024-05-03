@@ -6,8 +6,17 @@
 }
 
 body {
-    background:transparent;
-}
+    width: 250px;
+    height: 230px;
+    text-align: center;
+    background-color:transparent;       
+    display :flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    overflow-y: hidden;
+  }
 
 .card {
     width: 90%;
@@ -34,7 +43,7 @@ body {
     background: #ebfffc;
     color: #555;
     padding: 10px;
-    height: 60px;
+    height: 40px;
     border-radius: 30px;
     flex: 1;
     margin-right: 16px;
@@ -45,11 +54,12 @@ body {
 .search button {
     border: 0;
     outline: 0;
-    background: #ebfffc;
-    border-radius: 50%;
+    background: transparent;
+    border-radius: 60%;
     width: 60px;
     height: 60px;
     cursor: pointer;
+
 
 }
 
@@ -59,7 +69,7 @@ body {
 }
 
 .weather-icon {
-    width: 170px;
+    width: 80px;
     margin-top: 30px;
 
 }
@@ -75,31 +85,6 @@ body {
     margin-top: 10px;
 }
 
-.details {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 20px;
-    margin-top: 50px;
-
-}
-
-.col {
-    display: flex;
-    align-items: center;
-    text-align: left;
-}
-
-.col img {
-    width: 40px;
-    margin-right: 10px;
-}
-
-.humidity,
-.wind {
-    font-size: 28px;
-    margin-top: -6px;
-}
 
 .weather {
     display: none;
