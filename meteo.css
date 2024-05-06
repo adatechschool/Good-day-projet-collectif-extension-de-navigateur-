@@ -15,6 +15,7 @@ body {
     align-items: center;
     border-radius: 6px;
     overflow-y: hidden;
+    margin-top: -6px;
   }
 
 .card {
@@ -40,7 +41,7 @@ body {
     color: #555;
     padding: 10px;
     height: 40px;
-    border-radius: 30px;
+    border-radius: 6px;
     flex: 1;
     width: 100%;
     font-size: 18px;
