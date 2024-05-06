@@ -20,5 +20,4 @@ function setBackgroundImage(url) {
     document.body.style.backgroundImage = 'url(' + url + ')';
 }
 
-
 //getRandomImage();
