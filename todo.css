@@ -40,7 +40,26 @@
   .todo-container {
     display: flex;
     justify-content: center;
-    align-items: center;
+      
+    }
+    
+    .todo-list {
+      grid-row: 1 / span 3; /* Fusionne toutes les lignes */
+      border: 1px solid black;
+    }
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
   }
   .todo-list {
     min-width: 30%;
