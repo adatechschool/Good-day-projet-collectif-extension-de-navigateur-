@@ -16,11 +16,11 @@ body {
   margin-top: -90px;
    display: grid;
   grid-template-columns:1fr 1fr 1fr ;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 2fr 1fr 2fr;
   grid-template-areas: 
   "recherche meteo todo"
-  " . . .  " 
-  "socialmedia . .";
+  " socialmedia . todo  " 
+  " . . todo";
 }
 .recherche{
   grid-area: recherche;
