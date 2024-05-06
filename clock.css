@@ -1,16 +1,15 @@
 body {
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 40vh;
-    margin: 0;
-    
-    
-}
-
-#clock {
-    font-size: 36px;
-    justify-content: center;
-    align-items: center;
-}
+    background-color:transparent;
+  }
+  
+  #clock { 
+    font-family: 'Orbitron', sans-serif;
+    background: radial-gradient(ellipse at center,  #0a2e38  0%);
+     text-shadow: 0 0 20px rgba(10, 175, 230,  1),  0 0 20px rgba(10, 175, 230, 1);
+    color: #daf6ff; 
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+  }
+  
