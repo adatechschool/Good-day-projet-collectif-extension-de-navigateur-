@@ -22,4 +22,4 @@ function setBackgroundImage(url) {
 }
 
 
-//getRandomImage();
+getRandomImage();
