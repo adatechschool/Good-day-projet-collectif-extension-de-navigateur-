@@ -18,7 +18,7 @@ body {
   grid-template-columns:1fr 1fr 1fr ;
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-areas: 
-  "recherche meteo . "
+  "recherche meteo todo"
   " . . .  " 
   "socialmedia . .";
 }
@@ -36,5 +36,7 @@ body {
   .clock{
     grid-area: clock;
   }
-
+  .todo{
+    grid-area: todo;
+  }
   
