@@ -2,13 +2,15 @@
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+       
     }
     body {
         display: flex;
         justify-content:left;
         align-items: center;
-        height: 100vh;
+        height: 130vh;
         background: transparent;
+        margin-top: -70px;
     }
 
     ul {

@@ -24,6 +24,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: -60px;
   }
   form input,
   form button {
@@ -32,13 +33,37 @@
     border: none;
     background: white;
     color:#999;
-    
+    margin-top: -250px; 
+    min-height: 5vh;
   }
+  .liste {
+    
+    
+    
+    
+      font-family: 'Orbitron', sans-serif;
+      background: radial-gradient(ellipse at center,  #0a2e38  0%);
+       text-shadow: 0 0 20px rgba(10, 175, 230,  1),  0 0 20px rgba(10, 175, 230, 1);
+      color: #daf6ff; 
+      font-size: 40px;
+      text-align: center;
+      padding-top: 20px;
+      padding-bottom: 50px;
+    }
+    
+  
+  
+
+
+
+
   form button {
     color: #061048;
     background: white;
     cursor: pointer;
     transition: all 0.3s ease;
+    margin-top: -250px;
+    min-height: 5vh;
     
   }
   form button:hover {
@@ -53,6 +78,7 @@
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 3;
+    margin-top: -195px;
   }
   .todo-list {
     min-width: 30%;
@@ -107,16 +133,19 @@
     outline: none;
     box-shadow: none;
     border: none;
+    margin-bottom: 247px;
+    min-height: 3vh;
   }
   .select {
     margin: 1rem;
     position: relative;
     overflow: hidden;
+    margin-top: ;
   
   }
   select {
     color: #061048;
-    width: 10rem;
+    width: 9rem;
     cursor: pointer;
     padding: 1rem;
   }
@@ -126,11 +155,14 @@
     background: #061048;
     top: 0;
     right: 0;
-    padding: 1rem;
+    padding: 0.865rem;
     pointer-events: none;
     transition: all 0.3s ease;
+    border-radius: 6px;
+  
   }
   .select:hover::after {
     background: white;
     color: #16166F;
+    
   }
