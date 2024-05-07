@@ -68,20 +68,31 @@ body {
 
 .weather-icon {
     width: 256px;
+    margin-left: -35px
    
 
 }
 
 .weather h1 {
-    font-size: 60  ;
-    font-weight: 500;
+    font-family: 'Orbitron', sans-serif;
+    background: radial-gradient(ellipse at center,  #0a2e38  0%);
+     text-shadow: 0 0 20px rgba(10, 175, 230,  1),  0 0 20px rgba(10, 175, 230, 1);
+    color: #daf6ff; 
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+
     
 }
 
 .weather h2 {
-    font-size: 60 ;
-    font-weight: 500;
-    margin-top: 10px;
+    font-family: 'Orbitron', sans-serif;
+    background: radial-gradient(ellipse at center,  #0a2e38  0%);
+     text-shadow: 0 0 20px rgba(10, 175, 230,  1),  0 0 20px rgba(10, 175, 230, 1);
+    color: #daf6ff; 
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
 }
 
 
