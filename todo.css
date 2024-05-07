@@ -8,7 +8,7 @@
     
   }
   body {
-    color: #FFE100;
+    color: #c12525;
     font-family: "Poppins", sans-serif;
     min-height: 100vh;
     background: transparent;
@@ -79,6 +79,7 @@
     grid-row-start: 1;
     grid-row-end: 3;
     margin-top: -195px;
+    
   }
   .todo-list {
     min-width: 30%;
@@ -95,6 +96,7 @@
     transition: all 0.5s ease;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
+
   }
   .todo li {
     flex: 1;
@@ -136,28 +138,26 @@
     box-shadow: none;
     border: none;
     margin-bottom: 247px;
-    min-height: 3vh;
+    min-height:3vh;
+    color: #999;
+    width: 9rem;
+    cursor: pointer;
+    padding: 1rem;
   }
   .select {
     margin: 1rem;
     position: relative;
     overflow: hidden;
     margin-top: ;
-  
-  }
-  select {
-    color: #061048;
-    width: 9rem;
-    cursor: pointer;
-    padding: 1rem;
+
   }
   .select::after {
     content: "\25BC";
     position: absolute;
-    background: #061048;
+    background: #1DA1F2;
     top: 0;
     right: 0;
-    padding: 0.80rem;
+    padding: 1rem;
     pointer-events: none;
     transition: all 0.3s ease;
     border-radius: 6px;
@@ -167,4 +167,7 @@
     background: white;
     color: #16166F;
     
+  }
+  .todo-input{
+    ;
   }

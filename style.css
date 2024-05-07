@@ -40,7 +40,7 @@ body {
 }
 .socialmedia{
   grid-area: socialmedia;
-  margin-top: 20vh;
+  margin-top: 1vh;
   margin-left: 120px;
   
 }
@@ -52,6 +52,8 @@ body {
   }
   .todo{
     grid-area: todo;
+    
+
   }
   .liste{grid-area: liste;
   }
