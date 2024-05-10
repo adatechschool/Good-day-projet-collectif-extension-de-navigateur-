@@ -59,7 +59,7 @@
     cursor: pointer;
     transition: all 0.3s ease;
     margin-top: -250px;
-    min-height: 3vh;
+    min-height: 4vh;
     
   }
   form button:hover {
