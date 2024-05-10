@@ -48,3 +48,22 @@ body {
     margin-bottom: 10px;
   }
   
+  .btn{
+    animation: background 2s infinite;
+    background:linear-gradient(152deg,rgb(231, 144, 144), #1DA1F2);
+}
+@keyframes background {
+  to {
+    background:linear-gradient(152deg, #1DA1F2, #c12525);
+    text-shadow: 0 0.1em 0.1em #E81F1F;
+  }
+}
+.btn:hover{
+  animation: rotate 3s infinite;
+}
+@keyframes rotate{
+     100% {
+     transform: rotate(0deg)translateX(50px)scale(1);
+     box-shadow: 10px 5px 5px red;
+     }
+  }

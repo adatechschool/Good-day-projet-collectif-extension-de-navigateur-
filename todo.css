@@ -34,7 +34,7 @@
     background: white;
     color:#999;
     margin-top: -250px; 
-    min-height: 5vh;
+    
   }
   .liste {
     
@@ -51,10 +51,6 @@
       padding-bottom: 50px;
     }
     
-  
-  
-
-
 
 
   form button {
@@ -138,25 +134,24 @@
     box-shadow: none;
     border: none;
     margin-bottom: 247px;
-    min-height:3vh;
+    max-height:3vh;
     color: #999;
     width: 9rem;
     cursor: pointer;
-    padding: 1rem;
+    padding: 0.5rem;
   }
   .select {
     margin: 1rem;
     position: relative;
     overflow: hidden;
-    margin-top: ;
-
+   
   }
   .select::after {
     content: "\25BC";
     position: absolute;
     background: #1DA1F2;
-    top: 0;
-    right: 0;
+    margin-bottom: 247px;
+    margin-right: -80px;
     padding: 1rem;
     pointer-events: none;
     transition: all 0.3s ease;
@@ -168,6 +163,25 @@
     color: #16166F;
     
   }
-  .todo-input{
-    ;
+  
+   .filter-todo{
+    
+    
+    width: 120px;
+    min-height: 4vh;
+    
+   
+  
+  } 
+  .todo-button{
+    animation: background 5s infinite;
+    background:linear-gradient(152deg,green, rgb(231, 144, 144), #1DA1F2);
+    width: 50px;
+
+}
+@keyframes background {
+  to {
+    background:linear-gradient(152deg, #1DA1F2, red 50%, green 100%);
+    text-shadow: 0 0.1em 0.1em #E81F1F;
   }
+}

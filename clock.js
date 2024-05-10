@@ -21,7 +21,7 @@ function currentTime() {
 }
 
 function updateTime(k) {
-    return (k < 10) ? "0" + k : k;
+    return (k < 10) ? "0" + k : k; // cette fonction sert à afficher le zero à gachue tant que le chiffre est infereiru à 10 
 }
 
 currentTime(); 

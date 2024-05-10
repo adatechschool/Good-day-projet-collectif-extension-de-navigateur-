@@ -1,7 +1,7 @@
 
 //fetch de l'Api unsplash pour recuperer une image
 function getRandomImage() {
-    // Remplacez "YOUR_ACCESS_KEY" par votre clé d'accès à l'API Unsplash
+    
     var accessKey = 'Zn7WSdPyRExR6bWblabkMgVThpGRk57Jn9THLis9Hvg';
     
     var url = 'https://api.unsplash.com/photos/random?query=morning&client_id=' + accessKey;
