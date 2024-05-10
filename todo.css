@@ -59,7 +59,7 @@
     cursor: pointer;
     transition: all 0.3s ease;
     margin-top: -250px;
-    min-height: 5vh;
+    min-height: 3vh;
     
   }
   form button:hover {
@@ -152,7 +152,7 @@
     background: #1DA1F2;
     margin-bottom: 247px;
     margin-right: -80px;
-    padding: 1rem;
+    padding: 0.5rem;
     pointer-events: none;
     transition: all 0.3s ease;
     border-radius: 6px;
